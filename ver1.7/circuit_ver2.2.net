@@ -1,0 +1,47 @@
+* C:\Users\Omkar\Dropbox\SMPS_Design_Project\ver1.7\circuit_ver2.2.asc
+V1 N011 N013 SINE(0 220 50)
+D1 0 N013 1N4148
+D2 0 N011 1N4148
+D3 N013 N012 1N4148
+D4 N011 N012 1N914
+R1 N012 0 100
+V2 N002 0 PULSE(0 10 0 0 0 0.01 0.02 0)
+M1 N001 N003 N005 N005 NMOS
+R2 N004 0 10000
+R3 N002 N003 5
+R4 N003 0 10
+V3 N001 0 10
+L1 0 N004 .000006
+C1 N004 0 .000660 V=50
+R5 N005 0 100
+L2 N009 N010 12.12µ Rser=0.001
+C2 N010 0 19.5µ
+M2 N007 N008 N009 N009 AP9465GEM
+V4 N007 0 6
+V5 N008 0 PULSE(0 8 .1n .1u .1u 1u 2.5u)
+D5 0 N009 D
+M3 Vin Vswitch Vdiode Vdiode AP9465GEM
+V6 Vin 0 12
+V7 Vswitch 0 PULSE(0 12 0.0us .01us 0.01us 1.04us 2.5us)
+D6 0 Vdiode 1N5818
+L3 Vdiode Vout 12.12µ
+C4 Vout 0 19.5µ
+R7 Vout 0 100
+S1 Vd Vinput Vinput 0 M1
+V8 Vinput 0 PULSE(0 24 0.0 0.01us 0.01us .5us 1us)
+R6 Voutput 0 {R}
+D7 0 Vd 1N5818
+C3 Voutput 0 220µ
+L4 Vd Voutput 69µ
+V9 N006 0 PULSE(0 5 0 25u 0.000u 0 25u)
+R8 N006 0 10
+.model D D
+.lib C:\Program Files (x86)\LTC\LTspiceIV\lib\cmp\standard.dio
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Program Files (x86)\LTC\LTspiceIV\lib\cmp\standard.mos
+.tran 0 5ms 0 0.9ms
+.param R = 5
+.step param R 5 20 5
+.backanno
+.end

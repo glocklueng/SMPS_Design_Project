@@ -1,0 +1,22 @@
+Circuit: * Z:\Home\Dropbox\SMPS_Design_Project\ver1.0\circuit_ver1.0.asc
+
+.OP point found by inspection.
+
+Date: Mon Oct 21 15:23:59 2013
+Total elapsed time: 5.656 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 4378
+traniter = 4378
+tranpoints = 1420
+accept = 983
+rejected = 437
+matrix size = 8
+fillins = 5
+solver = Normal
+Matrix Compiler1: 572 bytes object code size  1.2/1.1/[0.9]
+Matrix Compiler2: off  [0.9]/1.1/2.6
+
+

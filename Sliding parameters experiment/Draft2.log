@@ -1,0 +1,12 @@
+Circuit: * C:\Users\AashishSharma\Dropbox\SMPS_Design_Project (1)\Sliding parameters experiment\Draft2.asc
+
+Error on line 5 : s1 vd vin vin 0 sw
+	 Unable to find definition of model "sw"
+.OP point found by inspection.
+.step r=5
+.step r=10
+.step r=15
+.step r=20
+.step r=25
+.step r=30
+.step r=35

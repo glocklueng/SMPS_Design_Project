@@ -1,0 +1,28 @@
+Circuit: * C:\Users\manoj\Dropbox\SMPS_Design_Project\ver3.0\circuit_ver3.1.asc
+
+Error on line 30 : s1 vd vinput vinput 0 sw sw
+	 Unknown parameter "sw"
+Limiting fall time of source v9 to 5.0822e-021
+Limiting rise time of source v2 to 0.001
+Limiting fall time of source v2 to 0.001
+Direct Newton iteration for .op point succeeded.
+Heightened Def Con from 1.00053e-012 to 3.96998e-010
+
+Date: Sun Jun 15 22:27:55 2014
+Total elapsed time: 39.523 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 1345027
+traniter = 1345019
+tranpoints = 377140
+accept = 277797
+rejected = 99344
+matrix size = 44
+fillins = 5
+solver = Normal
+Matrix Compiler1: 1.77 KB object code size  2.1/1.1/[0.5]
+Matrix Compiler2: 3.00 KB object code size  1.0/1.4/[0.6]
+
+

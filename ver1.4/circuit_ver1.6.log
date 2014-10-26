@@ -1,0 +1,24 @@
+Circuit: * Z:\home\haider\Dropbox\SMPS_Design_Project\ver1.4\circuit_ver1.6.asc
+
+Limiting rise time of source v2 to 0.001
+Limiting fall time of source v2 to 0.001
+Direct Newton iteration for .op point succeeded.
+
+Date: Wed Oct 23 00:37:30 2013
+Total elapsed time: 0.246 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2401
+traniter = 2389
+tranpoints = 1153
+accept = 913
+rejected = 240
+matrix size = 23
+fillins = 5
+solver = Normal
+Matrix Compiler1: 1.00 KB object code size  2.5/3.1/[2.5]
+Matrix Compiler2: 1.53 KB object code size  2.5/3.5/[2.5]
+
+
